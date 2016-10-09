@@ -19,7 +19,7 @@ class Production extends Application
 	public function index()
 	{
                 $source = $this->Recipe->all();
-                $recipes[] = array();
+                $recipes = array();
                 foreach ($source as $recipe)
 		{
                     $recipes[] = array ('code' => $recipe['code'], 'description' => $recipe['description'], 'ingredients' => $recipe['ingredients']);
@@ -28,4 +28,21 @@ class Production extends Application
                 $this->data['pagebody'] = 'ProductionPage';
                 $this->render();
 	}
+        
+        public function show($code)
+        {
+            $oneRecipe = $this->Recipe->get($code);
+            $this->data = array_merge($this->data, $oneRecipe); 
+            $source = $this->Recipe->all();
+                $recipes = array();
+                foreach ($source as $recipe)
+		{
+                    if($recipe['code'] != $code ){
+                        $recipes[] = array ('code' => $recipe['code'], 'description' => $recipe['description'], 'ingredients' => $recipe['ingredients']);   
+                    }
+                }
+                $this->data['recipes'] = $recipes;
+            $this->data['pagebody'] = 'OneProduction';
+            $this->render();
+        }
 }

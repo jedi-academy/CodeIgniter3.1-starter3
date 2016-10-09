@@ -3,16 +3,7 @@
         <h2>Production</h2>
         <div class="row">
             {recipes}
-             <div class="prodContainer">
-                 <b>{code}</b>: {description} <br> 
-                 <div> 
-                     <p> 
-                        Ingredients:  {ingredients}    
-                        {name},
-                        {/ingredients}
-                     </p> 
-                 </div> <br> 
-             </div>
+             <div class="prodContainer"><a href="/production/show/{code}"><b>{code}</b></a>: {description} <br>  </div>
             {/recipes}
         </div>
     </div>
