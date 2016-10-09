@@ -13,6 +13,9 @@
                 <div class="col-md-2">costs: {receivingCost}</div>
                 <div class="col-md-2">Instock {quantity}</div>
                 <div class="col-md-2">receiving Unit {receivingUnit}</div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-info" role="button">Order {code}</a>
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-12">{description}</div>

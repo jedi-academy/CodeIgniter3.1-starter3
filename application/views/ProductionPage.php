@@ -3,9 +3,16 @@
         <h2>Production</h2>
         <div class="row">
             {recipes}
-             <div class="prodContainer"><b>{code}</b>: {description} <br> <div> <p> Ingredients:  {ingredients}    
-                {name},
-                {/ingredients}</p> </div> <br> </div>
+             <div class="prodContainer">
+                 <b>{code}</b>: {description} <br> 
+                 <div> 
+                     <p> 
+                        Ingredients:  {ingredients}    
+                        {name},
+                        {/ingredients}
+                     </p> 
+                 </div> <br> 
+             </div>
             {/recipes}
         </div>
     </div>
