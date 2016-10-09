@@ -32,4 +32,11 @@ class Recieving extends Application
                 $this->render();
 	}
 
+        public function order($param) {
+            $supplies = $this->Supplies->get($param);
+            $this->data = array_merge($this->data, $supplies); 
+            $this->data['supplies'] = $supplies;
+            $this->data['pagebody'] = 'Order';
+            $this->render();
+        }
 }
