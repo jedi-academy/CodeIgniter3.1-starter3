@@ -48,7 +48,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="home">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li><a href="admin">ADMINISTRATOR</a></li>
                      <li><a href="recieving">RECIEVING</a></li>
                        <li><a href="production">PRODUCTION</a></li>

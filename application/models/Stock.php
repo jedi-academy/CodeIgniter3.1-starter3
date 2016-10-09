@@ -17,27 +17,27 @@ class Stock extends CI_Model{
 		array('code' => 'haircut', 
                       'description' => 'a simple haircut', 
                       'sellingPrice' => '$24.99',
-                      'quantity' => '0'),
+                      'quantity' => '3'),
                 array('code' => 'perm', 
                       'description' => 'a hairstyle produced by setting the hair in waves or curls and then treating it with chemicals so that the style lasts for several months', 
                       'sellingPrice' => '28.99',
-                      'quantity' => '0'),
+                      'quantity' => '1'),
                 array('code' => 'style', 
                       'description' => 'the styling of hair, usually on the human scalp', 
                       'sellingPrice' => '19.99',
-                      'quantity' => '0'),
+                      'quantity' => '8'),
                 array('code' => 'wax', 
                       'description' => 'sculpting the hair',
                       'sellingPrice' => '14.99',
-                      'quantity' => '0'),
+                      'quantity' => '1'),
                 array('code' => 'clean', 
                       'description' => 'removes excess sweat and oil, as well as unwanted products from the hair and scalp', 
                       'sellingPrice' => '21.99',
-                      'quantity' => '0'),
+                      'quantity' => '12'),
                 array('code' => 'buzzcut', 
                       'description' => 'a haircut in which all the hair is cut very close to the scalp.', 
                       'sellingPrice' => '15.99',
-                      'quantity' => '0')
+                      'quantity' => '9')
                 
 	);
 

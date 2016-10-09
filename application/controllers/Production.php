@@ -19,11 +19,13 @@ class Production extends Application
 	public function index()
 	{
                 $source = $this->Recipe->all();
-                $recipes['index'][] = array();
+                $recipes[] = array();
                 foreach ($source as $recipe)
 		{
-			$recipes['index'][] = array ('code' => $recipe['code'], 'description' => $recipe['description'], 'ingredients' => $recipe['ingredients']);
+                    $recipes[] = array ('code' => $recipe['code'], 'description' => $recipe['description'], 'ingredients' => $recipe['ingredients']);
 		}
-		$this->load->view('ProductionPage', $recipes);
+                $this->data['recipes'] = $recipes; 
+                $this->data['pagebody'] = 'ProductionPage';
+                $this->render();
 	}
 }

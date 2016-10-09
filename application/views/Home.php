@@ -48,7 +48,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="home">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li><a href="admin">ADMINISTRATOR</a></li>
                      <li><a href="recieving">RECIEVING</a></li>
                        <li><a href="production">PRODUCTION</a></li>
@@ -60,21 +60,24 @@
     </div>
      <!--END NAV SECTION -->
     
-    <!--HOME SECTION-->
+  <!--HOME SECTION-->
     <div id="home-sec">
 
-   
     <div class="container"  >
         <div class="row text-center">
-            <div  class="col-md-12" >
-                <?php 
-                  
-                ?> 
+            <div  class="col-md-12" > 
+                <br>
+                <p>$$$ worth of materials on hand: <b>${worthOfMaterialsAvailable}</b></p>
+                <p>$$$ worth of stock for sale: <b>${worthOfProductsStocked}</b></p>
+                <p># of different supplies available: <b>{uniqueSuppliesAvailable}</b></p>
+                <p># of different products stocked: <b>{uniqueProductsStocked}</b></p>
+                <p># of recipes known: <b>{recipesKnown}</b></p>
+               
             </div>
-           
+            <div class="col-md-12 col-sm-12">
+              
+            </div>
         </div>
     </div>
          </div>
 </html> 
-    
-    <!--END HOME SECTION-->  

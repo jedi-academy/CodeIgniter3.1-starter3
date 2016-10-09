@@ -19,6 +19,8 @@ class Admin extends Application
 	 */
 	public function index()
 	{
+               
+
 		 $this->load->view('AdminPage');
 	}
 
