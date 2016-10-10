@@ -31,14 +31,20 @@ class Production extends Application
         
         public function show($code)
         {
-            $oneRecipe = $this->Recipe->get($code);
+            $sourceSelected = $this->Recipe->get($code);
+            $ingredients = array();
+            foreach($sourceSelected['ingredients'] as $ingredient){
+                $quantity = $this->Supplies->get($ingredient['name'])['quantity'];
+                $ingredients[] = array('name'=>$ingredient['name'], 'amount'=>$ingredient['amount'], 'available' =>($quantity >= $ingredient['amount'] ? 'Yes' : 'No' ));
+            }
+            $oneRecipe = array('code' => $sourceSelected['code'], 'description' => $sourceSelected['description'], 'ingredients' =>$ingredients );
             $this->data = array_merge($this->data, $oneRecipe); 
             $source = $this->Recipe->all();
                 $recipes = array();
                 foreach ($source as $recipe)
 		{
                     if($recipe['code'] != $code ){
-                        $recipes[] = array ('code' => $recipe['code'], 'description' => $recipe['description'], 'ingredients' => $recipe['ingredients']);   
+                        $recipes[] = array ('code' => $recipe['code'], 'description' => $recipe['description']);   
                     }
                 }
                 $this->data['recipes'] = $recipes;
