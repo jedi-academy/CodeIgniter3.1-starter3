@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             {recipes}
-            <div class="prodContainer"><a href="/production/show/{code}"><b>{code}</b></a>: {description} <br></br> </div>
+            <div class="prodContainer"><a href="/Production/show/{code}"><b>{code}</b></a>: {description} <br></br> </div>
             {/recipes}
         </div>
     </div>

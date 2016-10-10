@@ -26,6 +26,8 @@ class Sales extends Application
 		{
 			$stock[] = array ('code' => $item['code'], 'description' => $item['description'], 'sellingPrice' => $item['sellingPrice']);
 		}
+                //passing stock array as parameter to page to access
+                $this->data['stock'] = $stock;
                 $this->data['pagebody'] = 'SalesPage';
 		$this -> render();
 	}
