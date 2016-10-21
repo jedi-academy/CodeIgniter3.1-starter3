@@ -14,13 +14,20 @@ class Shopping extends Application
 	 * 		http://example.com/shopping
 	 */
 	public function index() {
+        $stuff = file_get_contents('../data/receipt.md');
+        $this->data['receipt'] = $this->parsedown->parse($stuff);
+        $this->data['content'] = '';
         // pictorial menu
         $count = 1;
-        foreach ($this->categories->all() as $category) {
+        foreach ($this->Categories->all() as $category) {
             $chunk = 'category' . $count; 
-            $this->data[$chunk] = $category->name;
+            $this->data[$chunk] = $this->parser->parse('category-shop', $category, true);
+            foreach($this->Menu->all() as $menuitem) {
+                if ($menuitem->category != $category->id) continue;
+                $this->data[$chunk] .= $this->parser->parse('menuitem-shop',$menuitem,true);
+            }
             $count++;
         }
-        $this->render('template-shopping');  
+        $this->render('template-shopping'); 
 	}
 }
