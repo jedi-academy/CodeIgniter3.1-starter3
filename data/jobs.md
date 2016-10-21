@@ -1,9 +1,9 @@
-Atrexa Bar is When we say "Welcome to Atrexa," we believe this applies 
+**_Atrexa_** Bar is When we say "Welcome to Atrexa," we believe this applies 
 just as much to our employees as it does to the guests visiting our restaurants. 
 Atrexa has always been about connecting with people, and as an employer,
  we are focused on connecting you with great career opportunities.
 
-Is this YOU?
+**_Is this YOU?_**
 - Cooking…it’s my life!
 - Passion for what I do…never runs out
 - Attentive? Always!
@@ -11,8 +11,9 @@ Is this YOU?
 - Daily saying…“Quality is of utmost importance”
 - Taking initiative & multitasking – every single day!
 - Words to live by…“Patience is definitely a virtue!”
- 
-Picture this: 
+
+
+**_Picture this_**
 - Preparing quality customized burgers
 - Coordinating station to ensure quality product availability
 - Monitoring stock levels
@@ -20,7 +21,8 @@ Picture this:
 - Ensuring proper presentation if work area
 - Occasionally delivering food to guests and commenting on the quality of the products
  
-Being a part of the McDonald's Family means:
+
+**_Being a part of the McDonald's Family means:_**
 - Receiving competitive wages based on experience
 - Working in a fun, exciting and positive team environment
 - Flexible working hours (P/T or F/T)
@@ -31,4 +33,4 @@ Being a part of the McDonald's Family means:
 - Employee Outings & Activities
 - Having the opportunity to grow with excellent career opportunities 
 
-_Who said work couldn’t be fun?! What are you waiting for? Apply Now!_
+_Who said work couldn’t be fun?! What are you waiting for? **Apply Now!**_

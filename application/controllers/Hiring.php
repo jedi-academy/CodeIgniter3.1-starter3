@@ -15,8 +15,7 @@ class Hiring extends Application
 	 */
 	public function index() {
         $stuff = file_get_contents('../data/jobs.md');
-		$htmlstuff = $this->parsedown->parse($stuff);
-		$this->data['content'] = $this->parser->parseString($htmlstuff,$parameters,true);
-		$this->render('template-secondary');
+		$this->data['content'] = $this->parsedown->parse($stuff);
+		$this->render('template-secondary'); 
 	}
 }
