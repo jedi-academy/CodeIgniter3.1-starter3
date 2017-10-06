@@ -24,9 +24,9 @@
         <tr><th>Flight Code</th><th>Airplane</th><th>Departure</th><th>Arrival</th></tr>
     {flights}
         <tr><td><b>{code}</b></td>
-            <td>{airplane}<a href="/airplanes/{key}">{manufacturer} {model}</a>{/airplane}</td>
-            <td>{depart_airport}<a href="/airports/{code}">{code}</a>{/depart_airport} {depart_time}</td>
-            <td>{arrive_airport}<a href="/airports/{code}">{code}</a>{/arrive_airport} {arrive_time}</td></tr>
+            <td>{airplane}<a href="/airplanes/{key}" title="${price} Reach: {reach} Seats: {seats} Speed: {cruise} Hourly: ${hourly}">{manufacturer} {model}</a>{/airplane}</td>
+            <td>{depart_airport}<a href="/airports/{code}" title="{name} ({type})">{code}</a>{/depart_airport} {depart_time}</td>
+            <td>{arrive_airport}<a href="/airports/{code}" title="{name} ({type})">{code}</a>{/arrive_airport} {arrive_time}</td></tr>
     {/flights}
     </table>
 
