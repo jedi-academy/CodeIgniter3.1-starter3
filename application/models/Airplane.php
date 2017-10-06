@@ -33,9 +33,9 @@ class Airplane extends CI_Model
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '6' => array('manufacturer' => "KnAAPO", "model" => "Su-37", "price" => "50000000"
-        , "seats" => "1", "reach" => "59000", "cruise" => "4013", "takeoff" => "35000"
-        , "hourly" => "3400000"
+        '6' => array('manufacturer' => "KnAAPO", "model" => "Su-37", "price" => "51,435,358"
+        , "seats" => "1", "reach" => "59,000", "cruise" => "4,013", "takeoff" => "35,000"
+        , "hourly" => "485,000"
 
         ),
 //            'base' => array()
