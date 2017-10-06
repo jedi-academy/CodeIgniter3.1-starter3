@@ -3,37 +3,37 @@
 /**
  * This is the model for the airplanes in the fleet, but with hard-coded data.
  *
- * @author
+ * @author Morris Arroyo
  */
-class Airplane
+class Airplane extends CI_Model
 {
 
     var $data = array(
-        '0' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '0' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '1' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '1' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '2' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '2' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '3' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '3' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '4' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '4' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '5' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '5' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '6' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '6' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),

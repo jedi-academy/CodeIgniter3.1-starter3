@@ -8,10 +8,11 @@
 class Airport extends CI_Model
 {
     var $data = array(
-         '0' => array('code' => 'YXT', 'type' => 'base', 'name' => 'base' )
-        ,'1' => array('code' => 'YXT', 'type' => 'dest', 'name' => 'dest1' )
-        ,'2' => array('code' => 'YXT', 'type' => 'dest', 'name' => 'dest2' )
-        ,'3' => array('code' => 'YXT', 'type' => 'dest', 'name' => 'dest3' )
+         '0' => array('code' => 'YXT', 'type' => 'base'
+                     ,'name' => 'Northwest Regional Airport Terrace-Kitimat (Terrace Airport)' )
+        ,'1' => array('code' => 'XQU', 'type' => 'dest', 'name' => "Qualicum Beach Airport" )
+        ,'2' => array('code' => 'YYD', 'type' => 'dest', 'name' => "Smithers Airport")
+        ,'3' => array('code' => 'ZST', 'type' => 'dest', 'name' => "Stewart Aerodrome")
 //            'base' => array()
     );
 
