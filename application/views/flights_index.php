@@ -1,4 +1,4 @@
-<h1>Current Swallow Flights</h1>
+<h3>Current Swallow Flights</h3>
 
 <style>
     .flights-table td, .flights-table th {
