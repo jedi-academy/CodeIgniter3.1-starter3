@@ -3,13 +3,13 @@
 /**
  * This is the model for the airplanes in the fleet, but with hard-coded data.
  *
- * @author
+ * @author Morris Arroyo
  */
 class Airplane extends CI_Model
 {
 
     var $data = array(
-        '0' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '0' => array('manufacturer' => "Beechcraft", "model" => "Baron", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
@@ -36,6 +36,7 @@ class Airplane extends CI_Model
         '6' => array('manufacturer' => "KnAAPO", "model" => "Su-37", "price" => "50000000"
         , "seats" => "1", "reach" => "59000", "cruise" => "4013", "takeoff" => "35000"
         , "hourly" => "3400000"
+
         ),
 //            'base' => array()
     );
