@@ -5,7 +5,7 @@
  *
  * @author
  */
-class Airplane
+class Airplane extends CI_Model
 {
 
     var $data = array(
@@ -13,29 +13,29 @@ class Airplane
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '1' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '1' => array('manufacturer' => "Beechcrraft", "model" => "Jayhawk", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '2' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '2' => array('manufacturer' => "Beechcrraft", "model" => "1900", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '3' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '3' => array('manufacturer' => "Beechcrraft", "model" => "Duke", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '4' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
+        '4' => array('manufacturer' => "Airbus", "model" => "A320", "price" => "1350"
+        , "seats" => "100", "reach" => "11948", "cruise" => "373", "takeoff" => "701"
+        , "hourly" => "8340"
+        ),
+        '5' => array('manufacturer' => "Cessna", "model" => "400", "price" => "1350"
         , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
         , "hourly" => "340"
         ),
-        '5' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
-        , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
-        , "hourly" => "340"
-        ),
-        '6' => array('manufacturer' => "Beechcrraft", "model" => "Baron", "price" => "1350"
-        , "seats" => "4", "reach" => "1948", "cruise" => "373", "takeoff" => "701"
-        , "hourly" => "340"
+        '6' => array('manufacturer' => "KnAAPO", "model" => "Su-37", "price" => "50000000"
+        , "seats" => "1", "reach" => "59000", "cruise" => "4013", "takeoff" => "35000"
+        , "hourly" => "3400000"
         ),
 //            'base' => array()
     );
