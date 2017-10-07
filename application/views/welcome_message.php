@@ -32,6 +32,12 @@
             <td>Number of Planes</td>
             <td>{count}</td>
         </tr>
+    {flights}
+        <tr>
+            <td>Flight {key}</td>
+            <td>{depart_airport}{name}{/depart_airport} to {arrive_airport}{name}{/arrive_airport} ({code})</td>
+        </tr>
+    {/flights}
     </table>
 
 </div>
