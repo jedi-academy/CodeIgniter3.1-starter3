@@ -4,7 +4,11 @@ Jason Sekhon(Captain), Brayden Traas(Mate), Eric Lin(Mate), Morris Arroyo(Mate)
 
 -------------------------
 
+* added fleet model, controller and view
+
 * added flights model, controller and view
+
+* updated welcome page
 
 * menubar and boostrap integration. Cleaned welcome page
 
