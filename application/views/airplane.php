@@ -1,7 +1,3 @@
-{airplane}
-<h3>{model}</h3>
-{/airplane}
-
 <style>
     .fleet-table td, .fleet-table th {
         padding-right: 20px;
@@ -18,7 +14,9 @@
 </style>
 
 <div id="body">
-
+{airplane}
+<h3>{model}</h3>
+{/airplane}
 <!--    0 => array('code' => IDENTIFIER_CHAR . "001", 'depart_airport' => 0, 'depart_time' => '12:25', 'arrive_airport' => 1, 'arrive_time' => '23:15' )
 -->
 
